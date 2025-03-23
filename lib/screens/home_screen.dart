@@ -14,7 +14,10 @@ class HomeScreen extends StatelessWidget {
         // header bar
         appBar: AppBar(
           //iconTheme: IconThemeData(color: Colors.white),
-          backgroundColor: Color(0xFFFFFFFF), // Màu trắng
+          backgroundColor: Colors.white,
+          elevation: 4,
+          shadowColor: Colors.black26,
+
           leading: Padding(
             padding: EdgeInsets.all(0),
             child: Image.asset('../../assets/logo.jpg'), // Đường dẫn đến logo
